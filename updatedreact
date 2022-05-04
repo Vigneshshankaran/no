@@ -1,0 +1,56 @@
+ <div className="box">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a3/Eq_it-na_pizza-margherita_sep2005_sml.jpg" alt="name" />
+
+                        <div className="overlay">
+                            <h3>Pizza Delivery Application</h3>
+                            <p>The MERN Pizza delivery app with jwt authentication,
+                                delivery details, and payment gateway
+                                Only the admin can edit delete and update</p>
+
+
+                            <OverlayTrigger
+                                key="name"
+                                placement="top"
+                                overlay={
+                                    <Tooltip id={`tooltip-top`}>
+                                        <strong>Frontend</strong>
+                                    </Tooltip>
+                                }
+                            >
+                                <button>   <a href="https://github.com/Vigneshshankaran/pizza-delivery-app-Backend" target="_blank" rel="noreferrer"><GrGithub className="project-icons" />
+                                </a>
+                                </button>
+                            </OverlayTrigger>
+
+
+
+                            <OverlayTrigger
+                                key="name"
+                                placement="top"
+                                overlay={
+                                    <Tooltip id={`tooltip-top`}>
+                                        <strong>Backend</strong>
+                                    </Tooltip>
+                                }
+                            >
+                                <button>   <a href="https://github.com/Vigneshshankaran/pizza-delivery-app-Backend" target="_blank" rel="noreferrer"><GrGithub className="project-icons" />
+                                </a>
+                                </button>
+                            </OverlayTrigger>
+
+                            <OverlayTrigger
+                                key="name"
+                                placement="top"
+                                overlay={
+                                    <Tooltip id={`tooltip-top`}>
+                                        <strong>Live Demo</strong>
+                                    </Tooltip>
+                                }
+                            >
+                                <button>   <a href="https://github.com/Vigneshshankaran/pizza-delivery-app-Backend" target="_blank" rel="noreferrer"><GrLink className="project-icons" />
+                                </a>
+                                </button>
+                            </OverlayTrigger>
+
+                        </div>
+                    </div>
